@@ -341,12 +341,7 @@ export default function InviteCard({
                     <div className="info-box-label">Liên hệ</div>
                     {hasPhone ? (
                       <p className="info-box-value tabular-nums">
-                        <a
-                          href={`tel:${settings.contact_phone.replace(/\s+/g, '')}`}
-                          className="phone-link"
-                        >
-                          {settings.contact_phone}
-                        </a>
+                        {settings.contact_phone}
                       </p>
                     ) : (
                       <p className="info-box-sub">Đang cập nhật</p>

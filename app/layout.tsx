@@ -24,6 +24,11 @@ export const metadata: Metadata = {
   title: 'Thiệp Mời Tốt Nghiệp | Web Thiệp Mời Cá Nhân Hoá',
   description:
     'Hệ thống thiệp mời cá nhân hoá tên khách mời, cập nhật lịch trình linh hoạt và gửi lời chúc trực tiếp tới chủ thiệp.',
+  icons: {
+    icon: '/hcmut-logo.png',
+    shortcut: '/hcmut-logo.png',
+    apple: '/hcmut-logo.png',
+  },
 }
 
 export default function RootLayout({
