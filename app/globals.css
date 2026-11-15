@@ -1,0 +1,50 @@
+:root {
+  --bg-page: #f4f8fd;
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --surface: #ffffff;
+  --border-subtle: #dbeafe;
+  --primary: #030391;
+  --primary-hover: #032b91;
+  --accent: #1488d8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  color: var(--text-main);
+  background: var(--bg-page);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid #1488d8;
+  outline-offset: 2px;
+}
