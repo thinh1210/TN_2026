@@ -84,9 +84,6 @@ export default function LoginForm() {
             <span id={warningId} className="visually-hidden">
               Thao tác này sẽ hiển thị mật khẩu trên màn hình.
             </span>
-            <span className="field-hint">
-              Mặc định local: <code>123456</code> (hoặc <code>ADMIN_PASSWORD</code>)
-            </span>
             {error && (
               <span id={errorId} className="status-banner status-error" role="alert">
                 {error}
